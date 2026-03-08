@@ -2,7 +2,7 @@ ZEDD: AI Processing Media Engine
 
 ZEDD is a scalable, enterprise-grade AI-as-a-Service (SaaS) platform designed to automate and enhance media workflows. By combining state-of-the-art generative AI with a processing architecture, ZEDD enables users and businesses to transform images and videos at scale through a unified API and a professional management dashboard.
 
-1. Project Overview
+1. # Project Overview
 ZEDD provides a centralized infrastructure for intensive AI media processing. Handling high-resolution assets and complex AI models requires significant orchestration. ZEDD abstracts this complexity into a simple, reliable platform that handles everything from secure ingestion to asynchronous delivery, allowing developers and creatives to focus on building their core products while ZEDD handles the heavy computational lifting.
 
 2. Platform Capabilities
