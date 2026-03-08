@@ -8,7 +8,7 @@ ZEDD provides a centralized infrastructure for intensive AI media processing. Ha
 # 2. Platform Capabilities
 The platform offers a comprehensive suite of AI tools designed for professional results:
 
-# Premium Image Transformation:
+# Image Transformation:
   - Intelligent Upscaling: Enhance images to 4K+ resolution while preserving fine details and textures.
   - Precision Background Removal: Automated, high-accuracy masking for complex subjects and object isolation.
   - Contextual Editing: Advanced inpainting and object removal for seamless image cleanup.
