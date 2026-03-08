@@ -1,0 +1,123 @@
+<div align="center">
+
+# ZEDD
+### High-Performance AI Media Engine
+
+*Automate and enhance high-volume media workflows at scale*
+
+![License](https://img.shields.io/badge/license-Proprietary-red.svg)
+![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)
+![Stack](https://img.shields.io/badge/stack-Python%20%7C%20Flask%20%7C%20FastAPI-blue.svg)
+![Queue](https://img.shields.io/badge/queue-Celery%20%2B%20Redis-orange.svg)
+![DB](https://img.shields.io/badge/database-PostgreSQL-316192.svg)
+
+</div>
+
+---
+
+## Overview
+
+ZEDD is a scalable, enterprise-grade **AI-as-a-Service (SaaS)** platform designed to automate and enhance high-volume media workflows. By combining state-of-the-art generative AI with a robust asynchronous processing architecture, ZEDD enables users and businesses to transform images and videos at scale — through a unified API and a professional management dashboard.
+
+ZEDD abstracts the complexity of high-resolution AI processing into a simple, reliable platform — from secure ingestion to asynchronous delivery — letting developers and creatives focus on building their core products.
+
+---
+
+## Platform Capabilities
+
+### Premium Image Transformation
+
+| Feature | Description |
+|---|---|
+| **Intelligent Upscaling** | Enhance images to 4K+ resolution while preserving fine details and textures |
+| **Precision Background Removal** | Automated, high-accuracy masking for complex subjects and object isolation |
+| **Contextual Editing** | Advanced inpainting and object removal for seamless image cleanup |
+| **Portrait Enhancement** | High-fidelity tools for face swapping, restoration, and digital retouching |
+
+### Generative AI Ecosystem
+
+- **Synthetic Environments** — Instant generation of studio-quality backgrounds for product and portrait photography
+- **Tailored Workflows** — Specialized processing pipelines for Fashion, E-commerce, Real Estate, and Product Marketing
+
+### Video Processing Engine
+
+- **Generative Video** — Create dynamic video content from natural language descriptions
+- **Automated Video Editing** — Batch-processing tools for background removal and upscaling across video frames
+
+### Partner API Infrastructure
+
+- B2B-ready architecture with full API support and white-label management tools
+- Unified dashboard for monitoring usage, managing API keys, and configuring integration endpoints
+
+---
+
+## Architecture
+
+ZEDD uses a modern, distributed architecture designed for maximum reliability and throughput.
+
+![System Architecture](FlowChart.png)
+
+> Solid arrows represent direct data/request flow. Dotted arrows represent asynchronous notification and delivery callbacks.
+
+| Layer | Description |
+|---|---|
+| **Client Layer** | Entry point for Users & Developers via Web Dashboard or Public API |
+| **Backend Infrastructure** | Core application logic connected to a PostgreSQL database |
+| **Processing Pipeline** | Task Queue (Celery/Redis) → Worker Cluster → AI Processing Engine |
+| **Storage & Delivery** | Object Storage for processed assets + Notification System for async callbacks |
+
+---
+
+## Technology Stack
+
+| Component | Technology |
+|---|---|
+| **Backend** | Python — Flask & FastAPI |
+| **Task Queue** | Celery with Redis as the message broker |
+| **Database** | PostgreSQL — multi-tenant relational schema |
+| **AI Frameworks** | PyTorch and specialized computer vision libraries |
+| **DevOps** | Containerized deployment with Nginx for reverse proxying |
+| **Integrations** | Enterprise-grade payment processing & secure webhook delivery |
+
+---
+
+## Processing Workflow
+```
+1. Ingestion      — Assets are securely uploaded to integrated cloud storage
+2. Orchestration  — Jobs are dispatched to the processing queue by priority
+3. Inference      — Distributed workers execute specialized AI models
+4. Verification   — Outputs are optimized and stored securely
+5. Delivery       — Results delivered via secure endpoints with real-time notifications
+```
+
+---
+
+## Scalability & Performance
+
+- **Elastic Workers** — Processing capacity scales dynamically by adding worker nodes
+- **Decoupled Architecture** — API components are isolated from compute tasks, preventing degradation during peak load
+- **Intelligent Prioritization** — Advanced queueing ensures consistent performance across all user tiers
+- **Automated Health Monitoring** — Continuous tracking for high availability and rapid task-level recovery
+
+---
+
+## Developer Overview
+
+- **Comprehensive API** — Full programmatic access to every AI capability on the platform
+- **Secure Webhooks** — Real-time job status notifications for seamless third-party integration
+- **Partner Management** — Tools for managing API keys, usage analytics, and custom integration settings
+- **Robust Security** — Industry-standard authentication and secure data handling practices
+
+---
+
+## Disclaimer
+
+> This repository contains the public documentation and architecture overview for the ZEDD AI Platform. The full source code — including proprietary AI workflows, security implementations, and internal infrastructure strategies — is private and part of a commercial SaaS offering. This README is intended for stakeholders, developers, and evaluators seeking a high-level technical overview.
+
+---
+
+<div align="center">
+
+&copy; 2026 ZEDD AI Platforms. All rights reserved.
+
+</div>
